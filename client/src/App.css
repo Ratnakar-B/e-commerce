@@ -1,0 +1,340 @@
+.home-container,
+.home,
+.login-container,
+.signupMain-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.login-container,
+.signupMain-container {
+  height: 100vh;
+  background-color: #ffe6e6;
+}
+
+.loginBtn,
+.SubmitBtn {
+  width: 14vw;
+  background-image: linear-gradient(to right, #ff6969, rgb(202, 194, 200));
+  padding: 0.75vh;
+  margin: 2vh;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+.SubmitBtn {
+  margin: 1vh;
+}
+.loginHeading,
+.signupHeading {
+  margin: 2vh;
+  text-transform: capitalize;
+}
+.inputBox {
+  width: 18vw;
+  padding: 12px;
+  font-size: 16px;
+  color: #5f8670;
+  font-weight: 500;
+  margin: 1.5vh;
+}
+
+.form-container,
+.signupForm-container {
+  background-color: white;
+  width: 22%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fba1b7;
+}
+.signupForm-container {
+  height: 90vh;
+  width: 23%;
+  background-color: white;
+  border: 1px solid #fba1b7;
+}
+
+label {
+  width: 150px;
+  font-size: 18px;
+}
+.signupForm-container div {
+  margin: 2vh;
+}
+.signupForm-container input {
+  width: 12vw;
+  padding: 0.5vh;
+  font-size: 16px;
+  color: #5f8670;
+  font-weight: 500;
+}
+/* .navbar {
+  background-color: #f7ded0;
+} */
+.brandPic {
+  width: 5vw;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.fpLink,
+.signupLink,
+.loginLink,
+.logout {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f28585;
+}
+.fpLink:hover {
+  text-decoration: underline;
+}
+.signupLink:hover {
+  text-decoration: underline;
+}
+.loginLink:hover {
+  text-decoration: underline;
+}
+.logout:hover {
+  text-decoration: underline;
+  color: #1b4242;
+}
+.offerPic {
+  width: 30vw;
+}
+.nav-text:hover {
+  cursor: pointer;
+}
+.nav-text {
+  text-decoration: none;
+  color: var(--bs-nav-link-color);
+}
+
+.regBtn {
+  background-color: #ffb0b0;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px;
+  border-color: #9dbc98;
+}
+.regBtn:hover {
+  background-color: #f28585;
+}
+.brand-post,
+.ads,
+.ads1,
+.ads2 {
+  width: 55vw;
+  height: 80vh;
+  position: relative;
+  left: 6vw;
+  border-radius: 50%;
+  border: 1px solid #5f8670;
+  box-shadow: 20px 20px 10px #f9e8d9;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.ads2 {
+  border-radius: 50%;
+  width: 40vw;
+  height: 60vh;
+}
+.ads {
+  width: 50vw;
+  object-fit: contain;
+  object-position: 30%;
+  background-image: url("https://st3.depositphotos.com/1177973/14118/i/450/depositphotos_141182010-stock-photo-modern-casual-clothes.jpg");
+  box-shadow: 20px 20px 10px #e4a5ff;
+}
+
+.ads1,
+.ads2 {
+  position: relative;
+  width: 56vw;
+  left: -5vw;
+  /* background-image: url("https://retailwire.com/wp-content/uploads/2019/04/kidbox-walmart-montage-666x333.jpg"); */
+}
+.ads2 {
+  margin: 5vh;
+  position: relative;
+  left: -5vw;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+.quotesLogin {
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 70px;
+}
+
+.mediaPic {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #9dbc98;
+  margin: 2vh;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.mediaPic:hover {
+  background-color: #f3edc8;
+  cursor: pointer;
+}
+p {
+  text-align: center;
+}
+
+.profilePic {
+  width: 8vw;
+}
+
+.headingText {
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.mensAccess,
+.womenAccessories {
+  width: 90vw;
+  height: 70vh;
+  margin: 5vh;
+}
+
+.womenAccessories {
+  width: 60vw;
+  height: 60vh;
+}
+
+.men-category {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.online_product {
+  font-size: 25px;
+}
+
+.footwear {
+  display: inline-block;
+  width: 22vw;
+  height: 35vh;
+  margin: 1.35vw;
+  padding: 10px;
+  border: 1px solid #d04848;
+  cursor: pointer;
+}
+
+.footwear:hover {
+  background-color: #d9edbf;
+}
+
+.watchName {
+  text-align: center;
+}
+
+.watch-category {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.watch-category div {
+  margin: 2px;
+}
+
+.watch-img {
+  padding: 10px;
+  border: 1px solid #d04848;
+}
+
+.watch-img:hover {
+  background-color: #d9edbf;
+}
+
+.mensShirt-category,
+.womens-category,
+.footwear-category {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #d04848;
+  margin: 10px;
+  cursor: pointer;
+}
+.mensShirt-category img {
+  width: 290px;
+  height: 300px;
+  scroll-behavior: smooth;
+}
+.womens-category img {
+  width: 290px;
+  height: 300px;
+  padding: 5;
+  object-fit: contain;
+}
+.footwear-category img {
+  width: 250px;
+  height: 300px;
+  object-fit: contain;
+  margin: 2.6vw;
+}
+
+/* h5 {
+  border: 1px solid #e36414;
+  background-color: #d04848;
+  padding: 8px;
+  margin-bottom: 0px;
+} */
+
+/* h5:hover {
+  cursor: pointer;
+  background-color: #ffb0b0;
+} */
+.mensShirt-category:hover {
+  background-color: #9dbc98;
+}
+.womens-category:hover {
+  background-color: #9dbc98;
+}
+
+.navBtns {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+.navBar-backgroundColor {
+  background-color: #f9e8d9;
+}
+
+.welcome-text:first-letter {
+  color: #d04848;
+}
+.footwear-category:hover {
+  background-color: #9dbc98;
+}
+.welcome-text::first-line {
+  color: #9dbc98;
+}
+
+span {
+  color: #e36414;
+  font-size: 15px;
+}
+
+.checked {
+  color: orange;
+}
